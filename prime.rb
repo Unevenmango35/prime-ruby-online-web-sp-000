@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(int)
-  if (2..int).each {|i| int % i } == 0
+  if (2..int).each {|i-1| int % i } == 0
     return FALSE
   else if int < 2 
     return FALSE
