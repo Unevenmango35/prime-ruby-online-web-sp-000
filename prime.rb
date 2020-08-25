@@ -4,4 +4,10 @@ def prime?(int)
     return FALSE
   elsif
   (2..int).each {|n| int % n == 0}
+  return FALSE
+else
+  return TRUE
+end
+end
+
 end
