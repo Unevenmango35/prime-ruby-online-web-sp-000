@@ -1,15 +1,10 @@
 # Add  code here!
-def prime?(int)
-  if int < 2
-    return FALSE
-  elsif
-  int == 2
-  return TRUE
-elsif
-  (2..int).each {|n| int % n == 0}
-  return FALSE
-else
-  return TRUE
+def prime?(integer)
+  if integer > 1
+    (2...integer).each {|n| return false if integer < 2 || integer % n == 0}
+    return true
+  else
+    return false
+  end
 end
 
-end
